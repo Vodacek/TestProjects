@@ -1,0 +1,4 @@
+Content\clouds.xnb
+Content\skySphere.xnb
+Content\skysphere_mesh.xnb
+Content\skySphere.mgfxo

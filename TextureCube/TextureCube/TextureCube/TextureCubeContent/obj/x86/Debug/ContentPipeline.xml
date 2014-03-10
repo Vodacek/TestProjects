@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>clouds.dds</Source>
+      <Name>clouds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\clouds.xnb</Output>
+      <Time>2014-03-10T18:35:45.224394+01:00</Time>
+    </Item>
+    <Item>
+      <Source>skySphere.fx</Source>
+      <Name>skySphere</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\skySphere.xnb</Output>
+      <Time>2014-03-10T18:36:17.2638129+01:00</Time>
+    </Item>
+    <Item>
+      <Source>skysphere_mesh.FBX</Source>
+      <Name>skysphere_mesh</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\skysphere_mesh.xnb</Output>
+      <Time>2014-03-10T18:36:17.424922+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\skysphere_mesh_0.xml</Key>
+        <Value>2014-03-10T18:41:46.8251369+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>skysphere_mesh.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\skysphere_mesh_0.xml</Output>
+      <Time>2014-03-10T18:36:17.424922+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCubeContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCubeContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-10T21:20:13.9285052+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
