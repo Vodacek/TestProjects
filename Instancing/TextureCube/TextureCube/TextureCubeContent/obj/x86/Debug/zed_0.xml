@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>C4D_Root_Node</Name>
+    <Identity>
+      <SourceFilename>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCubeContent\zed.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>0.15 0 0 0 0 0.15 0 0 0 0 0.15 0 0 0 0 1</Transform>
+    <Children>
+      <Child Type="Graphics:MeshContent">
+        <Name>Cube</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 50.0000038 0 1</Transform>
+        <Positions>-50 -50 50 -50 50 50 50 -50 50 50 50 50 50 -50 -50 50 50 -50 -50 -50 -50 -50 50 -50</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 14 5 16 16 17 14 19 18 4 4 15 19</Indices>
+            <Vertices>
+              <PositionIndices>2 3 1 0 4 5 3 2 6 7 5 4 0 1 7 6 3 1 2 0</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.577350259 -0.577350259 0.577350259 0.577350259 0.577350259 0.577350259 -0.577350259 0.577350259 0.577350259 -0.577350259 -0.577350259 0.577350259 0.577350259 -0.577350259 -0.577350259 0.577350259 0.577350259 -0.577350259 0.577350259 0.577350259 0.577350259 0.577350259 -0.577350259 0.577350259 -0.577350259 -0.577350259 -0.577350259 -0.577350259 0.577350259 -0.577350259 0.577350259 0.577350259 -0.577350259 0.577350259 -0.577350259 -0.577350259 -0.577350259 -0.577350259 0.577350259 -0.577350259 0.577350259 0.577350259 -0.577350259 0.577350259 -0.577350259 -0.577350259 -0.577350259 -0.577350259 0.577350259 0.577350259 0.577350259 -0.577350259 0.577350259 0.577350259 0.577350259 -0.577350259 0.577350259 -0.577350259 -0.577350259 0.577350259</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">1 1 1 0 1.11758709E-08 0 1.11758709E-08 1 1 1 1 0 1.11758709E-08 0 1.11758709E-08 1 1 1 1 0 1.11758709E-08 0 1.11758709E-08 1 1 1 1 0 1.11758709E-08 0 1.11758709E-08 1 1 1 1.11758709E-08 1 1 0 1.11758709E-08 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>Mat</Name>
+      <Identity>
+        <SourceFilename>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCubeContent\zed.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">1 1 1</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0.2 0.2 0.2</Data>
+        <Data Key="SpecularPower" Type="float">64</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\..\Ivy0070_7_S.jpg</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

@@ -1,0 +1,2 @@
+C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCubeContent\obj\x86\Debug\TextureCubeContent.contentprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCubeContent\obj\x86\Debug\TextureCubeContent.contentprojResolveAssemblyReference.cache

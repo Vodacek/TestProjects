@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>clouds.dds</Source>
+      <Name>clouds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\clouds.xnb</Output>
+      <Time>2014-03-10T18:35:45.224394+01:00</Time>
+    </Item>
+    <Item>
+      <Source>trava.jpg</Source>
+      <Name>trava</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\trava.xnb</Output>
+      <Time>2014-03-11T08:21:09.3505877+01:00</Time>
+    </Item>
+    <Item>
+      <Source>skySphere.fx</Source>
+      <Name>skySphere</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\skySphere.xnb</Output>
+      <Time>2014-03-10T18:36:17.2638129+01:00</Time>
+    </Item>
+    <Item>
+      <Source>skysphere_mesh.FBX</Source>
+      <Name>skysphere_mesh</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\skysphere_mesh.xnb</Output>
+      <Time>2014-03-10T18:36:17.424922+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\skysphere_mesh_0.xml</Key>
+        <Value>2014-03-11T08:32:18.5609764+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>zed.fbx</Source>
+      <Name>zed</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\zed.xnb</Output>
+      <Time>2014-03-11T08:21:09.3766037+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\zed_0.xml</Key>
+        <Value>2014-03-11T08:32:18.7761179+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\Ivy0070_7_S_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>skysphere_mesh.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\skysphere_mesh_0.xml</Output>
+      <Time>2014-03-10T18:36:17.424922+01:00</Time>
+    </Item>
+    <Item>
+      <Source>zed.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\zed_0.xml</Output>
+      <Time>2014-03-11T08:21:09.3766037+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Ivy0070_7_S.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\Ivy0070_7_S_0.xnb</Output>
+      <Time>2013-02-28T20:46:29.751+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Maly.spritefont</Source>
+      <Name>Maly</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\Maly.xnb</Output>
+      <Time>2014-03-11T09:28:22.7290482+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCubeContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCube\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCubeContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\admin\Documents\GitHub\testprojects\TestProjects\Instancing\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-10T21:20:13.9285052+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
