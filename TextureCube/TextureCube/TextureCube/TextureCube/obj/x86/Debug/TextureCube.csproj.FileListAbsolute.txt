@@ -2,12 +2,9 @@ C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCub
 C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\TextureCube.pdb
 C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\SDL2-CS.dll
 C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\TheoraPlay-CS.dll
-C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Lidgren.Network.dll
 C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\MonoGame.Framework.pdb
 C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\SDL2-CS.pdb
 C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\TheoraPlay-CS.pdb
-C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Lidgren.Network.pdb
-C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\bin\x86\Debug\Lidgren.Network.xml
 C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\obj\x86\Debug\TextureCube.csprojResolveAssemblyReference.cache
 C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\admin\Documents\GitHub\testprojects\TestProjects\TextureCube\TextureCube\TextureCube\TextureCube\obj\x86\Debug\TextureCube.exe
